@@ -1,0 +1,662 @@
+.welcomesect {
+    padding: 111px 0 104px;
+
+    h1 {
+        margin-bottom: 20px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 56px;
+        line-height: 130%;
+        font-weight: 700;
+        color: #202020;
+        text-transform: uppercase;
+    }
+
+    .subtitle {
+        max-width: 486px;
+        color: #ED3030;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 130%;
+        margin-bottom: 40px;
+    }
+
+    .descr {
+        max-width: 486px;
+        margin-bottom: 46px;
+        font-size: 18px;
+    }
+
+
+}
+
+.learnmore {
+    padding: 110px 0 120px;
+    background: url('../img/bg1.png') no-repeat center top / 100% auto;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        background: #fff;
+
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: #202020;
+        font-size: 46px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 600;
+        line-height: 130%;
+    }
+
+    .description {
+        max-width: 592px;
+
+        p {
+            margin: 0;
+            font-size: 20px;
+            color: #424242;
+            font-family: "Roboto", sans-serif;
+
+            b {
+                font-weight: 600;
+                color: #ED3030;
+            }
+        }
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.whushooseus {
+    padding: 80px 0 110px;
+    background: url('../img/bg2.png') no-repeat center bottom / 100% auto;
+
+    h3 {
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 130%;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+
+    .description {
+        margin-bottom: 46px;
+        max-width: 592px;
+
+        p {
+            margin: 0;
+            font-size: 20px;
+            color: #fff;
+
+            span {
+                color: #F4F600;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .whushooseus__box {
+        background: #1F1E1E;
+        border-radius: 20px;
+        padding: 35px 20px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        &:nth-child(3),
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+
+        .imgwrap {
+            width: 140px;
+            height: 140px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        p {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 130%;
+        }
+    }
+}
+
+.solution {
+    padding: 110px 0 80px;
+
+    h3 {
+        margin-bottom: 60px;
+    }
+
+    .description {
+        max-width: 592px;
+
+        p {
+            font-size: 20px;
+            color: #424242;
+
+            span {
+                color: #ED3030;
+                font-weight: 600;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .imgwrap {
+        img {
+            margin-right: -20px;
+        }
+    }
+}
+
+.checkrowwrapper {
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        background: url('../img/line.png') repeat-x;
+        top: 50%;
+        margin-top: -1px;
+    }
+}
+
+.checkrow {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    .checbox {
+        width: 280px;
+        background: #fff;
+        border-radius: 20px;
+        padding: 35px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+
+    .checkwrap {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        background: #EFEFEF;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+
+        img {
+            width: 60px;
+            display: inline-block;
+        }
+    }
+
+    p {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 130%;
+        color: #202020;
+        margin: 0;
+        min-height: 65px;
+    }
+}
+
+.services {
+    padding: 110px 0 120px;
+    background: url(../img/bg1.png) no-repeat center top / 100% auto;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        background: #fff;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    h3 {
+        margin-bottom: 60px;
+    }
+}
+
+.servicesbox {
+    padding: 50px;
+    border-radius: 40px;
+    background: url('../img/servbg.png') no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .imgwrap {
+        width: 100%;
+        max-width: 46%;
+        flex: 0 0 46%;
+
+        img {
+            width: 100%;
+            vertical-align: top;
+            border-radius: 20px;
+        }
+    }
+
+    .descrwrap {
+        width: 100%;
+        max-width: 54%;
+        flex: 0 0 54%;
+        padding-left: 60px;
+
+        .title {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 130%;
+            color: #fff;
+        }
+
+        p {
+            font-size: 20px;
+            color: #E5E5E5;
+
+            span {
+                color: #F4F600;
+                font-weight: 600;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
+
+.contectsection {
+    background: #202020;
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        position: relative;
+    }
+}
+
+.contectsection__left {
+    h3 {
+        margin-bottom: 60px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 130%;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 210px;
+            height: 210px;
+            background: url('../img/dots-el1.png') no-repeat center / 100%;
+            position: absolute;
+            left: 0;
+            top: -44px;
+        }
+    }
+
+    p {
+        max-width: 515px;
+        font-size: 20px;
+        color: #E5E5E5;
+        margin-bottom: 47px;
+
+        span {
+            color: #F4F600;
+            font-weight: 600;
+        }
+
+    }
+
+    .tellink {
+        position: relative;
+        padding-left: 78px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+
+        &:hover {
+            color: #F4F600;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.contectsection__right {
+    .inputfield {
+        margin-bottom: 30px;
+
+        input {
+            width: 100%;
+            outline: none;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            height: 53px;
+            color: #fff;
+            font-size: 18px;
+
+            &::placeholder {
+                color: #E5E5E5;
+            }
+        }
+
+        textarea {
+            width: 100%;
+            outline: none;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            height: 80px;
+            color: #fff;
+            font-size: 18px;
+            resize: none;
+            padding: 10px 0 0 0;
+
+            &::placeholder {
+                color: #E5E5E5;
+            }
+        }
+    }
+
+    .redbtn {
+        font-family: "Roboto Condensed", sans-serif;
+        width: 100%;
+        max-width: 100%;
+
+        &::after {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+}
+
+.contectsection__img {
+    bottom: -120px;
+    position: absolute;
+    right: 0;
+    width: 210px;
+    padding: 0;
+}
+
+@media(max-width:1599.8px) {
+
+    .welcomesect .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .welcomesect img {
+        width: 90%;
+    }
+
+    .welcomesect .descr {
+        margin-bottom: 40px;
+    }
+
+    .whushooseus {
+        padding: 80px 0 100px;
+    }
+
+    .whushooseus .whushooseus__box .imgwrap {
+        width: 100px;
+        height: 100px;
+    }
+
+    .whushooseus .whushooseus__box p {
+        margin: 0;
+        font-size: 21px;
+    }
+
+    .whushooseus .whushooseus__box .imgwrap {
+        margin-bottom: 15px;
+    }
+
+    .solution {
+        padding: 100px 0 80px;
+    }
+
+    .checkrow .checbox {
+        width: 220px;
+        padding: 20px;
+    }
+
+    .checkrow .checkwrap {
+        width: 100px;
+        height: 100px;
+    }
+
+    .checkrow .checkwrap img {
+        width: 46px;
+    }
+
+    .checkrow p {
+        min-height: 55px;
+    }
+
+    .servicesbox {
+        padding: 30px;
+    }
+
+    .contectsection__left h3:after {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contectsection__left p {
+        max-width: 480px;
+    }
+
+    .contectsection__right .inputfield input,
+    .contectsection__right .inputfield textarea {
+        font-size: 16px;
+    }
+
+    .contectsection__right .inputfield {
+        margin-bottom: 20px;
+    }
+
+    .contectsection {
+        padding: 100px 0;
+    }
+
+
+
+
+
+    .whushooseus h3,
+    .solution h3,
+    .services h3,
+    .contectsection__left h3 {
+        margin-bottom: 40px;
+    }
+
+    .learnmore h2 {
+        margin-bottom: 30px;
+    }
+
+    .welcomesect,
+    .learnmore,
+    .services {
+        padding: 100px 0;
+    }
+
+    .welcomesect h1 {
+        font-size: 50px;
+    }
+
+    .learnmore h2,
+    .whushooseus h3,
+    .solution h3,
+    h3,
+    .contectsection__left h3 {
+        font-size: 40px;
+    }
+
+    .checkrow p {
+        font-size: 21px;
+    }
+
+    .welcomesect .subtitle {
+        font-size: 20px;
+    }
+
+    .learnmore .description p,
+    .whushooseus .description p,
+    .solution .description p,
+    .servicesbox .descrwrap p,
+    .contectsection__left p {
+        font-size: 18px;
+    }
+
+    .welcomesect .descr {
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media(max-width:1399.8px) {
+
+    .welcomesect .descr {
+        margin-bottom: 30px;
+    }
+
+    .welcomesect {
+        padding-bottom: 70px;
+    }
+
+    .learnmore .description,
+    .solution .description {
+        max-width: 460px;
+    }
+
+    .contectsection__left h3,
+    .services h3,
+    .solution h3,
+    .whushooseus h3 {
+        margin-bottom: 30px;
+    }
+
+    .servicesbox {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+    .welcomesect h1 {
+        font-size: 42px;
+    }
+
+    .contectsection__left h3,
+    .learnmore h2,
+    .solution h3,
+    .whushooseus h3,
+    h3 {
+        font-size: 34px;
+    }
+
+    .checkrow p {
+        font-size: 20px;
+    }
+
+    .whushooseus .whushooseus__box p {
+        font-size: 18px;
+    }
+
+    .welcomesect .subtitle {
+        font-size: 18px;
+    }
+
+    .contectsection__left p,
+    .learnmore .description p,
+    .servicesbox .descrwrap p,
+    .solution .description p,
+    .whushooseus .description p {
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+@media(max-width:1199.8px) {
+    .welcomesect {
+        padding: 120px 0 70px;
+    }
+
+    .whushooseus .whushooseus__box {
+        min-height: 232px;
+        padding: 30px;
+    }
+
+}
