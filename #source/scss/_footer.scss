@@ -13,7 +13,6 @@ footer.footer {
     }
 }
 
-
 .totop {
     display: inline-flex;
     align-items: center;
@@ -51,4 +50,19 @@ footer.footer {
         font-size: 16px;
     }
 
+}
+
+@media(max-width:767.8px) {
+    footer.footer {
+        text-align: center;
+
+        .footer__logo {
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
 }

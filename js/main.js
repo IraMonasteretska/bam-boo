@@ -18,4 +18,13 @@ $(document).ready(function(){
         })
 
     });
+
+
+    $('.menubtn').click(function(){
+        $('.mobmenu').addClass('active');
+    });
+    $('.closemenu').click(function(){
+        $('.mobmenu').removeClass('active');
+    });
+
 })
