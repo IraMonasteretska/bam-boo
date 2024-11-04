@@ -1,0 +1,45 @@
+.welcomesect.wu {
+    padding-bottom: 20px;
+}
+
+.learnmore.wu {
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    .imgwrap {
+        display: inline-block;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .descr {
+        text-align: center;
+        margin-bottom: 40px;
+
+        p {
+            font-size: 18px;
+            color: #424242;
+        }
+    }
+
+    .redbtn {
+        &::after {
+            display: none;
+        }
+    }
+
+}
+
+.contectsection.wu {
+    .contectsection__left {
+        max-width: 515px;
+    }
+
+    .contectsection__right {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+}
