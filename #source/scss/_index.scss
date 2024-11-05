@@ -12,18 +12,27 @@
     }
 
     .subtitle {
-        max-width: 486px;
+        max-width: 580px;
         color: #ED3030;
         font-size: 25px;
         font-weight: 500;
         line-height: 130%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .descr {
-        max-width: 486px;
+        max-width: 580px;
         margin-bottom: 46px;
         font-size: 18px;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: #ED3030;
+            font-weight: 600;
+        }
     }
 
 
@@ -247,7 +256,7 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 70%;
+        height: calc(100% - 200px);
         background: #fff;
     }
 
@@ -444,6 +453,18 @@
     padding: 0;
 }
 
+.descrsect {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    font-size: 20px;
+
+    span {
+        font-weight: 600;
+        color: #ED3030;
+    }
+}
+
 @media(max-width:1599.8px) {
     .whushooseus {
         position: relative;
@@ -600,6 +621,10 @@
 }
 
 @media(max-width:1399.8px) {
+    .descrsect {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
 
     .welcomesect .descr {
         margin-bottom: 30px;

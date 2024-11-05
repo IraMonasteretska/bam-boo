@@ -1,6 +1,11 @@
 .welcomesect.ab {
     padding: 154px 0 90px;
 
+    h1 {
+        margin-bottom: 60px;
+        font-size: 46px;
+    }
+
     .descr {
         max-width: 100%;
 
@@ -16,6 +21,10 @@
 
     .description {
         max-width: 100%;
+
+        p {
+            margin-bottom: 10px;
+        }
 
     }
 
@@ -69,6 +78,10 @@
     .whushooseus.ab {
         padding: 100px 0;
     }
+
+    .welcomesect.ab h1 {
+        margin-bottom: 40px;
+    }
 }
 
 @media(max-width:1399.8px) {
@@ -93,7 +106,9 @@
         margin-bottom: 0;
     }
 
-
+    .welcomesect.ab h1 {
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -128,10 +143,18 @@
     .whushooseus.ab {
         padding: 80px 0 100px;
     }
+
+    .welcomesect.ab h1 {
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width:575.8px) {
     .whushooseus.ab {
         padding: 70px 0;
+    }
+
+    .welcomesect.ab h1 {
+        margin-bottom: 15px;
     }
 }

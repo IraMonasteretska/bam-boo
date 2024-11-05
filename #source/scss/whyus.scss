@@ -1,5 +1,10 @@
 .welcomesect.wu {
     padding-bottom: 20px;
+
+    h1 {
+        margin-bottom: 60px;
+        font-size: 46px;
+    }
 }
 
 .learnmore.wu {
@@ -41,5 +46,54 @@
     .contectsection__right {
         max-width: 580px;
         margin: 0 auto;
+    }
+}
+
+@media(max-width:1599.8px) {
+    .learnmore.wu h2 {
+        margin-bottom: 40px;
+    }
+
+    .learnmore.wu .descr p {
+        font-size: 16px;
+    }
+
+    .welcomesect.wu h1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:1199.8px) {
+    .welcomesect.wu h1 {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .contectsection.wu .contectsection__right {
+        margin: 0;
+    }
+
+    .welcomesect.wu h1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .lmwuorders {
+        .col-md-3 {
+           display: none;
+        }
+    }
+}
+
+@media(max-width:575.8px) {
+    .redbtn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .welcomesect.wu h1 {
+        margin-bottom: 15px;
     }
 }
