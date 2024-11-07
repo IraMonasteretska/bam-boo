@@ -88,6 +88,32 @@
     }
 }
 
+.servinfosect {
+    padding: 100px 0 120px;
+
+    .description {
+        max-width: 592px;
+        padding-left: 30px;
+
+        p {
+            color: #424242;
+            font-size: 20px;
+
+            span {
+                color: #ED3030;
+            }
+        }
+
+        .redbtn {
+            margin-top: 30px;
+        }
+    }
+}
+
+
+
+
+
 @media(max-width:1599.8px) {
     .serviceswelcome h1 {
         margin-bottom: 20px;
@@ -115,7 +141,14 @@
         font-size: 40px;
     }
 
-    .serviceswelcome .descr p {
+    .servinfosect .description p {
+        margin-bottom: 10px;
+    }
+
+    .serviceswelcome .descr p,
+    .servinfosect .description p,
+    .whushooseus .description p,
+    .contectsection.white .contectsection__left p {
         font-size: 16px;
     }
 
@@ -145,6 +178,23 @@
         padding: 140px 0 40px;
     }
 
+    .servinfosect {
+        .imgwrap {
+            margin-bottom: 30px;
+        }
+    }
+
+    .servinfosect .description .redbtn {
+        margin-top: 10px;
+    }
+
+    .servinfosect {
+        padding: 80px 0;
+    }
+
+    .servinfosect .description {
+        padding-left: 0;
+    }
 }
 
 @media(max-width:575.8px) {
@@ -185,6 +235,17 @@
         flex: 0 0 calc(100% - 45px);
     }
 
+    .serviceswelcome {
+        // padding-top: 120px;
+    }
+
+    .servinfosect .description .redbtn {
+        max-width: calc(100% - 30px);
+    }
+
+    .servinfosect {
+        padding: 70px 0 50px;
+    }
 
 
 }
