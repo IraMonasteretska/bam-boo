@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/aos.css">
+    <link rel="stylesheet" href="css/lib/swiper8.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -48,12 +50,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
-                        <h1>Bam-Boo Recruitment</h1>
-                        <p class="subtitle">
+                        <h1 data-aos="fade-right">Bam-Boo Recruitment</h1>
+                        <p data-aos="fade-right" data-aos-delay="100" class="subtitle">
                             Looking for Sales and Marketing personnel to help you grow your business at the rate of
                             bamboo, the World’s fastest growing plant ?
                         </p>
-                        <div class="descr">
+                        <div class="descr" data-aos="fade-right" data-aos-delay="200">
                             <p>
                                 At Bam-Boo we understand that the right talent is the driving force behind your
                                 business’s
@@ -71,12 +73,60 @@
                                 Marketing activity and strategy.
                             </p>
                         </div>
-                        <a href="#" class="redbtn ">
+                        <a href="#" class="redbtn" data-aos="fade-right" data-aos-delay="300">
                             <span>Get a Consultation</span>
                         </a>
                     </div>
                     <div class="col-lg-7 text-end">
-                        <img src="img/ill1.png" alt="img">
+                        <!-- <img src="img/ill1.png" alt="img"> -->
+                        <div class="mnslwrap">
+                            <img class="mnslwrap__bg1" src="img/mainsect-ill1.png" alt="img">
+
+                            <div class="mnslwrap__slwrap">
+                                <img class="mnslwrap__bg2" src="img/mainsect-ill2.png" alt="img">
+                                <img class="mnslwrap__bg3" src="img/mainsect-ill3.png" alt="img">
+                                <div class="swiper mnsl">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide1.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide2.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide3.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide1.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide2.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="imgwrp">
+                                                <img src="img/mainsect-slide3.svg" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <img src="img/slright.svg" alt="next">
+                                    </div>
+                                    <div class="swiper-button-prev">
+                                        <img src="img/slleft.svg" alt="prev">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,7 +134,7 @@
 
         <section class="learnmore">
             <div class="container">
-                <h2 class="text-center">Learn more about us</h2>
+                <h2 class="text-center" data-aos="fade-up">Learn more about us</h2>
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="imgwrap">
@@ -92,16 +142,18 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="description">
+                        <div class="description" data-aos="fade-left">
                             <p>
-                                <b>Bam-Boo Recruitment</b> is a leading recruitment agency specialising in sales and
+                                <b>Bam-Boo recruitment</b> is a leading recruitment agency specialising in sales and
                                 marketing
                                 talent. We are passionate about helping businesses grow by connecting them with
-                                professionals who make a difference.
+                                professionals who make a difference. With a commitment to quality and a focus on
+                                results, we work in partnership with you to meet your talent acquisition goals.
                             </p>
                             <p>
-                                With a commitment to quality and a focus on results, we work in partnership with you to
-                                meet your talent acquisition goals.
+                                Whether you are a company seeking dynamic sales professionals and leaders or marketing
+                                experts or talented individuals looking for a role to take the next step in their career
+                                we are here to help.
                             </p>
                         </div>
                     </div>
@@ -112,7 +164,7 @@
         <section class="whushooseus">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <h3>Why Choose Us?</h3>
                         <div class="description">
                             <p>
@@ -127,7 +179,7 @@
                             <span>Get a Consultation</span>
                         </a>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <div class="row whushooseus__boxes">
                             <div class="col-lg-6 col-md-6">
                                 <div class="whushooseus__box">
@@ -170,7 +222,7 @@
         <section class="solution">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <h3>Tailored Recruitment Solutions</h3>
                         <div class="description">
                             <p>
@@ -178,22 +230,21 @@
                                 ensures that we
                                 understand your company culture, goals and challenge, allowing us to deliver candidates
                                 who are not just qualified but aligned with your vision.
-                            </p>
-                            <p>
+                                <br>
                                 In today’s fast-paced business environment we understand that not only do you want the
                                 best candidates, but that time is of the essence. Our streamlined recruitment process is
                                 designed to deliver top talent quickly without compromise.
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-up">
                         <div class="imgwrap">
                             <img src="img/ill3.png" alt="img">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="checkrowwrapper">
+            <div class="checkrowwrapper" data-aos="fade-up">
                 <div class="container">
                     <div class="checkrow">
                         <div class="checbox">
@@ -227,15 +278,16 @@
 
         <section class="services">
             <div class="container">
-                <h3 class="text-center">Our Services:</h3>
-                <p class="descrsect">
-                    <span>We are</span> dedicated to connecting top tier talent with ambitious companies looking to drive growth. We
+                <h3 class="text-center" data-aos="fade-up">Our Services:</h3>
+                <p class="descrsect" data-aos="fade-up">
+                    <span>We are</span> dedicated to connecting top tier talent with ambitious companies looking to
+                    drive growth. We
                     ensure that every client finds the right candidate for their unique needs, and every candidate finds
                     a role that aligns with their career aspirations.
                 </p>
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-                        <a href="#" class="servicesbox">
+                        <a href="#" class="servicesbox" data-aos="fade-up">
                             <div class="imgwrap">
                                 <img src="img/serv1.png" alt="serv">
                             </div>
@@ -254,7 +306,7 @@
                             </div>
                         </a>
 
-                        <a href="#" class="servicesbox">
+                        <a href="#" class="servicesbox" data-aos="fade-up">
                             <div class="imgwrap">
                                 <img src="img/serv2.png" alt="serv">
                             </div>
@@ -270,7 +322,7 @@
                             </div>
                         </a>
 
-                        <a href="#" class="servicesbox">
+                        <a href="#" class="servicesbox" data-aos="fade-up">
                             <div class="imgwrap">
                                 <img src="img/serv3.png" alt="serv">
                             </div>
@@ -295,7 +347,7 @@
         <section class="contectsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-up">
                         <div class="contectsection__left">
                             <h3>
                                 Ready to add great new talent to your organisation ?
@@ -312,7 +364,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-up">
                         <div class="contectsection__right">
                             <form action="#">
                                 <div class="row">
@@ -323,12 +375,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="inputfield">
-                                            <input type="text" placeholder="Last name">
+                                            <input type="text" placeholder="Surname">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="inputfield">
-                                            <input type="number" placeholder="+ 44 XXX XXX XXXX">
+                                            <input type="text" placeholder="Company name">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -338,7 +390,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="inputfield">
-                                            <input type="text" placeholder="Company name">
+                                            <input type="number" placeholder="+ 44 XXX XXX XXXX">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
@@ -383,6 +435,8 @@
 
     <script src="js/lib/jquery.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/swiper8.js"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -30,6 +30,11 @@ header.header {
                 line-height: 130%;
                 color: #202020;
                 text-decoration: none;
+                transition: 0.3s;
+
+                &:hover {
+                    color: #ed3030;
+                }
             }
         }
     }
@@ -65,7 +70,9 @@ header.header {
     transition: 0.3s;
 
     &:hover {
-        color: #202020;
+        background: #ed3030;
+        color: #fff;
+        border-color: #ed3030;
     }
 }
 

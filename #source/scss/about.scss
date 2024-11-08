@@ -61,9 +61,14 @@
             textarea {
                 border-color: #C8C9C0;
                 color: #202020;
+                transition: 0.3s;
 
                 &::placeholder {
                     color: #202020;
+                }
+
+                &:focus {
+                    border-color: #202020;
                 }
             }
         }
@@ -156,5 +161,9 @@
 
     .welcomesect.ab h1 {
         margin-bottom: 15px;
+    }
+
+    .welcomesect.ab h1 {
+        font-size: 36px;
     }
 }

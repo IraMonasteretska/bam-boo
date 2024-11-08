@@ -39,10 +39,17 @@ footer.footer {
     img {
         margin-left: 6px;
         margin-top: -1px;
+        transition: 0.3s;
     }
 
     &:hover {
-        color: #424242;
+        color: #fff;
+        background: #ED3030;
+        border-color: #ED3030;
+
+        img {
+            filter: invert(1);
+        }
     }
 }
 
